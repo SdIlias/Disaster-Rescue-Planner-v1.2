@@ -1,17 +1,17 @@
 # Disaster-Rescue-Planner
 
-### 🏷️ **Project Context:** Operations Research & Graph Theory
-### 🏫 **Module:** Recherche Opérationnelle (IAGI - ENSAM Casablanca)
+###  **Project Context:** Operations Research & Graph Theory
+###  **Module:** Recherche Opérationnelle (IAGI - ENSAM Casablanca)
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 The **Disaster-Rescue-Planner** is a computational model designed to optimize evacuation strategies in the event of a natural disaster. It applies fundamental principles of **Operations Research (OR)** and **Graph Theory** to create a robust, secure, and rapid evacuation network.
 
 The core objective is to minimize the total evacuation distance (or time) from a specified risk area to the nearest rescue center, while simultaneously ensuring the safety of evacuees by routing them away from other active disaster zones.
 
-## ⚙️ Technical Approach
+##  Technical Approach
 
 The system models the disaster environment as an undirected, weighted graph, where the optimization problem is solved using an adapted version of Dijkstra's algorithm.
 
@@ -45,7 +45,7 @@ This method ensures the *shortest secure path* is identified for immediate actio
 ---
 
 
-## 🖼️ Visual Demonstration
+##  Visual Demonstration
 
 The images below illustrate the application running on the command line and on GUI, showcasing two distinct scenarios: the initial optimal path, and the system's ability to **dynamically add a new node and recalculate the optimal, secure path**.
 
@@ -106,7 +106,7 @@ This showcases the functionality of the `GRAPHICAL.txt` file, which allows a use
 | **`GRAPHICAL.txt`** | GUI (Tkinter) | Full Dynamic Graph Creation | The most advanced version. It removes the static graph initialization and uses `tkinter.simpledialog` to prompt the user to build the *entire* network at runtime (number of nodes, names, types, and all inter-node distances). This demonstrates full control over dynamic graph topology creation. |
 | **`p3.txt`** | N/A | Incomplete Draft | This file appears to be an early or incomplete draft, missing necessary Python syntax (colons, string quotes) for execution. |
 
-## ▶️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 
