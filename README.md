@@ -34,7 +34,7 @@ To maximize the security of the evacuation, the model incorporates a crucial net
 
 This method ensures the *shortest secure path* is identified for immediate action.
 
-## ✨ Key Features
+##  Key Features
 
 *   **Optimal Pathfinding:** Uses Dijkstra's algorithm to determine the minimal path to multiple end-centers.
 *   **Security Constraint Implementation:** Models and enforces security by dynamically removing non-source risk routes.
